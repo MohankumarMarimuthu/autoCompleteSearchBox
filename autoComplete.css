@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(58, 63, 67);
+}
+.searchBar {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.SearchBox{
+    width: 800px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    border: none;
+    outline: none;
+    width: 90%;
+    flex: 1;
+    font-size: 18px;
+}
+::placeholder{
+    color: #8F90A6;
+}
+button{
+    background: none;
+    outline: none;
+    border: none;
+}
+button i{
+    font-size: 16px;
+}
+.resultBox{
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 2px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+ul li{
+    list-style: none;
+}
+ul li:nth-child(n+2){
+    padding-top: 16px;
+}
